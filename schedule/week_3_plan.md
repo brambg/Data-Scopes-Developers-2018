@@ -1,6 +1,6 @@
 # Week 3 plan: Pubcamp: Expressing the edition, digital publication
 
-Time | Monday | Tuesday | Wednesday | Thursday | Friday
+Time | [Monday](week_3_day_1_plan.md) |[Tuesday](week_3_day_2_plan.md) |[Wednesday](week_3_day_3_plan.md) |[Thursday](week_3_day_4_plan.md) |[Friday](week_3_day_5_plan.md) |
 ---- | ---- | ---- | ---- | ---- | ----  
 9:00–9:40 | Mike Kestemont: Unsupervised learning, cluster analysis, PCA, paleographic analysis (continued) | LOD and Editions | Getting to know and use the TEI stylesheets | The edition and APIs | Publishing strategies 
 10:30–11:00 | Coffee break | Coffee break | Coffee break | Coffee break | Coffee break 

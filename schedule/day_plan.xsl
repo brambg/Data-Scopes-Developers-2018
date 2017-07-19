@@ -22,9 +22,8 @@
     
     <!-- Templates for weekly plans -->
     <xsl:template match="week">
-        <xsl:variable name="filename" as="xs:string" select="'week_' || @num || '_plan.md'"/>
+        <xsl:variable name="filename" as="xs:string" select="'week_' || @num ||'/' || 'week_' || @num || '_plan.md'"/>
         
-            select="'week_' || ../@num || '_day_' || position() || '_plan.md'"/>
         <xsl:result-document method="text" omit-xml-declaration="yes" href="{$filename}">
             <xsl:value-of select="'# Week ' || @num || ' plan: ' || ./title || '&#x0a;' || '&#x0a;'"/>
             
@@ -37,7 +36,7 @@
         
     </xsl:template>
     <xsl:template match="day">
-        <xsl:variable name="linkname" as="xs:string" select="'week_' || ../@num || '_day_' || position() || '_plan.md'"/>
+        <xsl:variable name="linkname" as="xs:string" select="'week_' || ../@num || '/' || 'week_' || ../@num || '_day_' || position() || '_plan.md'"/>
         <xsl:variable name="daynames" as="xs:string" select="normalize-space(concat(' [', @d, '](', $linkname, ')', ' | ' ))"/>
         <xsl:value-of select="$daynames"/>
         
@@ -57,9 +56,9 @@
     </xsl:template>
     <xsl:template match="day" mode="daily">
         <xsl:variable name="filename" as="xs:string"
-            select="'week_' || ../@num || '_day_' || position() || '_plan.md'"/>
+            select="'week_' || ../@num || '/' || 'week_' || ../@num || '_day_' || position() || '_plan.md'"/>
         <xsl:variable name="feedbackname" as="xs:string"
-            select="'week_' || ../@num || '_day_' || position() || '_feedback.md'"/>
+            select="'week_' || ../@num || '/' || 'week_' || ../@num || '_day_' || position() || '_feedback.md'"/>
         <xsl:result-document method="text" omit-xml-declaration="yes" href="{$filename}">
             <xsl:value-of
                 select="'# Week ' || ../@num || ', Day ' || position() || ': ' || @d || ', ' || date || '&#x0a;'"/>
