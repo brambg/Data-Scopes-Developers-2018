@@ -295,68 +295,52 @@
                 Participants learn that their research goals and questions influence the
                 computational pipelines.</syn>
             <slot time="09:00:00">
-                <title>Normalization</title>
-                <act time="0">
-                    <desc>Review of Week 2, Day 2: computational pipelines, modeling, processing,
-                        and tokenization</desc>
+                <title>Tokenization 2</title>
+                <act time="15" type="Discussion">
+                    <desc>Review of tokenization concepts and tools</desc>
 
                     <outcome/>
                 </act>
-                <act time="0">
-                    <desc>Basic normalization</desc>
+                <act time="15" type="Presentation">
+                    <desc>[Real-live tokenization in a project pipeline](https://github.com/DHUniWien/tpen2tei)</desc>
 
                     <outcome/>
                 </act>
-                <act time="0">
-                    <desc>NLTK</desc>
+                <act time="60" type="Code_lab">
+                    <desc>Tokenize *your* text: mini-hackathon</desc>
 
                     <outcome/>
                 </act>
-                <act time="0">
-                    <desc>Regular expressions</desc>
-
-                    <outcome/>
-                </act>
-                <act time="0">
-                    <desc>Basic XML normalization: transforming XML to a stream of normalized (word)
-                        tokens</desc>
-
-                    <outcome/>
-                </act>
-                <act time="0">
-                    <desc>Hands-on exercise with NLTK and regular expressions</desc>
-
-                    <outcome/>
-                </act>
+                
                 <outcome>
                     <goal>Understanding the principles of basic text transformations like
                         normalization and how they serve different objectives</goal>
                 </outcome>
             </slot>
             <slot time="10:30:00">
-                <title>Coffee break</title>
+                <title>Coffee break</title>            
                 <act time="30">
                     <desc>Coffee break</desc>
 
                 </act>
             </slot>
             <slot time="11:00:00">
-                <title>Collation</title>
-                <act time="0">
-                    <desc>Modeling and collation</desc>
+                <title>Normalization 2</title>
+                <act time="20" type="Code_lab">
+                    <desc>Near matching (open `Near_matching.ipynb` in Jupyter)</desc>
 
                     <outcome/>
                 </act>
-                <act time="0">
-                    <desc>Collation within editorial theory</desc>
+                <act time="20" type="Presentation">
+                    <desc>[Normalization and Soundex](2014-09-15_varna-collation.pptx.pdf)</desc>
 
                 </act>
-                <act time="0">
-                    <desc>Collation practice</desc>
+                <act time="20" type='Code_lab'>
+                    <desc>Integrating normalization with tokenization (open `Integrating_tokenization_and_normalization.ipynb` in Jupyter)</desc>
 
                 </act>
-                <act time="0">
-                    <desc>Tokenization and normalization for collation purposes</desc>
+                <act time="30" type="Code_lab">
+                    <desc>Normalize your text: mini-hackathon</desc>
 
                 </act>
                 <outcome>
@@ -373,14 +357,10 @@
                 </act>
             </slot>
             <slot time="14:00:00">
-                <title>Challenging textual phenomena: Introducing Text as Graph (TAG)</title>
-                <act time="0">
-                    <desc>Challenging textual phenomena: Introducing Text as Graph (TAG)</desc>
+                <title>Linked open data</title>
+                <act time="90" type="Presentation">
+                    <desc>[Linked open data](linked_open_data.md)</desc>
                 </act>
-                <outcome>
-                    <goal>Fundamentals of TAG: hypergraph</goal>
-                    <goal>Modeling discontinuity</goal>
-                </outcome>
             </slot>
             <slot time="15:30:00">
                 <title>Coffee break</title>
@@ -390,7 +370,7 @@
             </slot>
             <slot time="16:00:00">
                 <title>Review</title>
-                <act time="0">
+                <act time="90">
                     <desc>Review</desc>
                 </act>
             </slot>
