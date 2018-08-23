@@ -1,18 +1,13 @@
 ---
 permalink: /admin/
 ---
-# Algemene informatie
+# General Information
 
-## Tijden en locatie
+## Times and location
 
-De workshop vindt plaats in het Oost-Indisch Huis, zaal A0.03, van 11:00 tot 16:30. 
+The workshop takes place at Spinhuis room 2.18, Wednesday 5 September from 9:00 til 17:00 and Thursday 6 September from 9:00 till 12:30.
 
-Elke dag bestaat uit twee sessies, van 11:00 tot 13:00 en van 13:30 tot 16:30. Lunch wordt verzorgd. 
+## Preparation
 
-## Voorbereiding
-
-Om te zorgen dat deelnemers tijdens de workshop hun tijd zo nuttig mogelijk besteden vragen we iedereen om een aantal zaken voor te bereiden.
-
-Neem je eigen laptop mee, zorg dat je installatierechten hebt. Neem ook een USB mee met tenminste 1Gb aan schijfruimte, zodat je de portable applicaties er op kunt zetten.
-
-* [Tools](tools.md): Een overzicht van de tools die we gebruiken
+- Get a WorldCat API Key for the Search SRU service.
+- Bring your own laptop.
