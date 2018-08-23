@@ -2,22 +2,23 @@
 permalink: /
 ---
 
-# Workshop Data Scopes - Methoden voor omgang met digitale data in humanities onderzoekspraktijk
+# Workshop Data Scopes for Developers - Transparent Data Research for the Humanities
 
-Data Scopes zijn een concept voor de omgang met samengestelde data in een humanities context. Met data scopes willen we bijdragen aan methodologische reflectie op en consolidatie van de verzameling methoden die door velen in de menswetenschappen (vaak in de vorm van tools) al worden gebruikt in aanvulling op de bestaande methoden. De workshop wordt georganiseerd door het KNAW Humanities Cluster.
+Data Scopes is a concept for dealing with complex data in a humanities research context. With this concept we want to contribute to methodological reflection on the processes of preparing and analyzing humanities research data, and how they shape and contribute to interpretation. 
 
-In de workshop besteden we aandacht aan de verschillende vormen van bewerking van geesteswetenschappelijk materiaal, en hoe deze zowel kennis en interpretatie van het materiaal vereisen als invloed hebben op de analyse en interpretatie verderop in het onderzoeksproces.
+In this workshop we focus on various activities in transforming humanities materials to make them fit for addressing research questions and how these require knowledge and interpretation of the data and how they affect further interpretation during analysis and synthesis. 
 
-De workshop duurt 5 dagen van 11:00 tot 16:30 uur en bestaat uit hands-on sessies waarin deelnemers in kleine groepen samenwerken aan het bewerken van kleine data sets. De volgende onderwerpen komen aan bod:
+The workshop is one and half day, consisting of three half day sessions. During the workshop participants work in small groups on assignments based on sample datasets and realistic research questions. The following topics will be discussed:
 
-+ Van bron naar data - omzetten van verschillende soorten bronnen naar computer bewerkbare gegevens.
-+ Modelleren - vormgeving van gegevens om antwoord te geven op onderzoeksvragen.
-+ Exploreren van data voor onderzoek - methoden van close reading, distant reading, analyse.
-+ Reduceren van complexiteit - gebruik van methoden en tools om overzicht en inzicht te krijgen in data.
++ Combining data from different sources: e.g. book reviews from different book review website, to study reception of literature.
++ Normalizing variation: conflating variations of names and keywords for linking across records and datasets.
++ Reducing complexity: classification and dealing with skewed distributions.
 
-We onderscheiden vijf verschillende activiteiten in het onderzoek met data scopes: modelleren, selecteren, normaliseren, linken en categoriseren van data. Elke dag richten we ons op één of twee van deze thema’s, maar alle activiteiten komen dagelijks terug in het werken met de verschillende data sets.
+In the process of scoping data to fit a research question, we discern five distinct activities: modelling, selecting, normalizing, linking and classifying. The goal is to come to a good way of documenting the data transformation and research process in terms of these activities, in such a way that others understand what happened to the data.
 
-## Doelstelling
+## Goals
+
+TODO - translate/modify/remove:
 
 Het doel is onderzoekers zich bewust te laten worden van de verschillende aspecten van de omgang met grootschalige data. In de dagelijkse onderzoekspraktijk:
 
