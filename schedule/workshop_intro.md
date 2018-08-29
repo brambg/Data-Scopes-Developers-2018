@@ -1,61 +1,52 @@
 # Workshop Data Scopes
 
-Coherente methoden voor onderzoek met heterogene digitale bronnen
+Coherent methods for research with heterogeneous digital resources
 
-- Data scope: bijeen brengen van verschillende materialen en ze zodanig opschonen, aanvullen en verbinden zodat je bepaalde analyses kunt doen
-    - Weinig consensus over hoe je dingen doet
-    - Weinig begrip van hoe dit proces eruit ziet en hoe het vervolgstappen (e.g. analyse) beinvloed
-    - Vaak onterecht gezien als voorbereiding op het "echte" onderzoek
+  - _Data scope_: gathering different datasets and cleaning, supplementing and linking them to be able to do analyses that spring from research questions
+  - there is little consensus how to proceed
+  - there is little understanding about the processes involved and how they influence further steps (such as analysis)
+  - often (falsely) regarded as a preparation of 'real research'
 
-## Doel workshop
+## Workshop purpose
 
-Het doel is onderzoekers zich bewust te laten worden van de verschillende aspecten van de omgang met grootschalige data. Met data scopes willen we het volgende bereiken:
+The purpose of the workshop is to make researchers aware of the different aspects of dealing with large-scale data. With data scopes we want to achieve the following:
 
-- **Inzicht in databewerkingsproces**: data verwerking is een essentieel en onlosmakelijk onderdeel van het onderzoek, en niet een noodzakelijk technisch proces waarna het echte onderzoek kan beginnen,
-- **Transparantie van onderzoek**: zorgen voor meer transparantie bij de totstandkoming van onderzoek dat gebaseerd is op de verwerking en analyse van grote en complexe hoeveelheden data
-- **Methodologische discussie**: consolideren van digitale methoden om te komen tot coherente en breed gedragen onderzoeksmethodologieën
-- **Ontwikkelen van samenwerkingsvorm**: data bijeenbrengen, opschonen en koppelen vergt veel kennis, zowel technisch als inhoudelijk. Een goede manier om samen te werken en kennis te delen is essentieel.
+- __insight into data processing__: processing data is an essential and inseparable part of research and not just an inevitable technical process after which the real research can beginnen
+- __transparancy of research__: make research based on the processing and analysis of large and complex data more Transparent
+- __methodological discussion__: consolidate digital methods in order to come to coherent and broadly supported research methodologies
+- __develop modes of collaboration__: collecting, cleaning and linking data requires a lot of knowledge, of technical as well as content matters
 
-## Opzet workshop
+## Workshop design
 
-+ **Tutorial**: uitleg Data scopes concepten
-+ **Hands**-on sessies: werken in kleine groepen aan opdrachten rondom Data scopes concepten
-    + **wees creatief**: opdrachten hebben geen "correcte" oplossing, wij hebben de goede antwoorden ook niet
-    + **zen**: het wordt een zootje, alles gaat mis, maar dat hoort erbij en alles komt ook weer goed
-+ **Discussie**: vergelijken van groepsopdrachten, reflectie op Data scopes als handvat voor onderzoeksproces
+- __Tutorial__: explanation of data scopes concepts
+- __Hands-on sessions__: work in small groups on assignments relating to data scopes concepts
+    + **be creative**: assignments have no 'right solutions', we do not have the correct answers ourselves
+    + **zen**: assignments will be a mess, everything goes wrong, but that is part of the deal and they will turn out alright again
++ **Discussion**: compare groups assignments, reflect on data scopes as a vergelijken van groepsopdrachten, reflectie op Data scopes as a means to tackle the research process
 
-## Programma
+Wednesday 5 September:
 
++ 09:00-09:30 [Workshop introduction](workshop_intro.md)
++ 09:30-10:00 [Data Scopes concept](data_scopes_intro.md)
++ 10:00-13:00 [Hands-on session 1: Exploring and analyzing online book reviews](assignment1.md)
++ 13:00-14:00 Lunch
++ 14:00-17:00 [Hands-on session 2: Planning combining of book review datasets](assignment2.md)
 
-Vandaag:
+Thursday 6 September:
 
-+ 11:00-11:30 Workshop introductie
-+ 11:30-12:00 Data Scopes achtergrond
-+ 12:00-13:00 Hands-on sessie 1: greppen in TvG data
-+ 13:00-13:30 Lunch
-+ 13:30-15:30 Hands-on sessie 2: Frequentielijsten, namen en temporele expressies
-+ 15:30-16:30 Bespreken van bevindingen, reflectie op Data Scopes
++ 09:00-10:00 Preparing data scope of assignments for handover
++ 10:00-10:30 Data scope handover to other group
++ 10:30-11:30 Assessing data scope of other group
++ 11:30-12:30 Methodology discussion and wrap up
 
-Rest van de week:
+## Participants
 
-- 17-04:
-    - ochtend: TvG, structureren ongestructureerde data
-    - middag: Generale Missiven, vergelijken indices, linken en classificeren van trefwoorden
-    - avond: borrel en diner (op de Nes, e.g. Brakke Grond of Mappa)
-- 18-04:
-    - ochtend: Generale Missiven, vergelijken indices, linken en classificeren van trefwoorden
-    - middag: Generale Missiven, vergelijken indices, linken en classificeren van trefwoorden
-- 19-04:
-    - ochtend: Biografisch Portaal
-    - middag: Biografisch Portaal
-- 20-04:
-    - ochtend: Biografisch Portaal
-    - middag: Pot luck, samenvatten bevindingen
+- What is your background? What are your experiences with and in using data in research?
+- Why do you participate? What are your expectations?
 
-## Deelnemers
+===========
 
-- Wat is je achtergrond? Wat is je ervaring met digitale methoden in onderzoek/data ontsluiting?
-- Waarom doe je mee? Wat zijn je verwachtingen?
+what do we keep from this
 
 
 ## Deel 1
@@ -69,7 +60,7 @@ Rest van de week:
 ## Tijdschrift voor Geschiedenis (TvG)
 
 - [Retrodigitalisering TvG](http://resources.huygens.knaw.nl/retroboeken/tvg/) online beschikbaar
-- edities: 121 (1886-2008) 
+- edities: 121 (1886-2008)
     - teksten: 22,682 (artikelen, mededelingen, boekbesprekingen, ...)
     - pagina's: 60,751
     - Woorden - totaal = 30,861,146
@@ -88,7 +79,7 @@ Rest van de week:
     - pipelines voor ketens van stappen
 
 
-## Reguliere expressies 
+## Reguliere expressies
     - CTRL-F on steroids
     - voor patronen herkennen en transformeren
 
@@ -108,6 +99,3 @@ Rest van de week:
 ## Transparantie
 
 Op welk detail niveau moet het process vastgelegd zijn voor transparantie?
-
-
-
