@@ -9,7 +9,7 @@ Coherent methods for research with heterogeneous digital resources
 
 ## Workshop purpose
 
-The purpose of the workshop is to make researchers aware of the different aspects of dealing with large-scale data. With data scopes we want to achieve the following:
+The purpose of the workshop is to make researchers aware of the different aspects of dealing with large-scale data. With data scopes we wan t to achieve the following:
 
 - __insight into data processing__: processing data is an essential and inseparable part of research and not just an inevitable technical process after which the real research can beginnen
 - __transparancy of research__: make research based on the processing and analysis of large and complex data more Transparent
@@ -22,7 +22,7 @@ The purpose of the workshop is to make researchers aware of the different aspect
 - __Hands-on sessions__: work in small groups on assignments relating to data scopes concepts
     + **be creative**: assignments have no 'right solutions', we do not have the correct answers ourselves
     + **zen**: assignments will be a mess, everything goes wrong, but that is part of the deal and they will turn out alright again
-+ **Discussion**: compare groups assignments, reflect on data scopes as a vergelijken van groepsopdrachten, reflectie op Data scopes as a means to tackle the research process
+    + **Discussion**: compare groups assignments, reflect on data scopes as a means to tackle the research process
 
 Wednesday 5 September:
 
