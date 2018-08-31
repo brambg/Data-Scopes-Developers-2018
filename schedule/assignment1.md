@@ -1,4 +1,4 @@
-## Research background: Online Book Reviews
+# Research background: Online Book Reviews
 
 The reception of literature is an research direction within the Humanities Cluster. One aspect to study is how readers discuss the books they read online, as part of communities of readers or just for themselves as way to reflect on what they thought of the book or to keep track of their own reading. Studying book reviews by different readers allows us to analyse how fiction and non-fiction books are received by the reading public, how appreciation varies across book genres, reader demographics, reading communities and over time. 
 
@@ -13,7 +13,11 @@ This research project serves as the background for data and assignments in this 
 
 ## Data Scopes assignments
 
-### Preparing review dataset for analysis of publishers and genres
+Morning assignment: creating data axis for publishers
+
+Afternoon assignment: combining heterogeneous dataset
+
+## Preparing review dataset for analysis of publishers and genres
 
 Publishers often focus on a small range of genres, although some publish books on any genres. They sometimes also play with genre labels for sales purposes, such as classifying a Thriller as a Literary Thriller to target an audience that would consider "normal" thrillers of no interest.
 
@@ -23,7 +27,7 @@ The assignment is to help with this transformation.
 
 **Note: it is not a test to see if you make the right decisions nor a suggestion that HuC DI developers are responsible for making these kinds decisions for researchers. It is about understanding what is important in this process, how it potentially affects research (and therefore how we can communicate this to researchers), and how we as a department should take into account these issues when developing data models, functionality for searching and analysing, and user interfaces.**
 
-### Step 1. getting an overview
+## Step 1. getting an overview
 
 - How many reviews are in the dataset?
 - Which fields are there and for what fraction of the dataset are these fields filled in?
@@ -31,7 +35,7 @@ The assignment is to help with this transformation.
 - How complete is the *publisher* and *bookgenre* metadata?
 
 
-### Step 2. understanding distributions
+## Step 2. understanding distributions
 
 - what is the frequency distribution of ISBNs? of authors? of publishers? of bookgenres? 
 - 
@@ -40,15 +44,31 @@ The dataset contains book reviews from different source sites, including bol.com
 
 - What is the distribution of reviews of collections?
 
-### Step 3. investigating publisher metadata
+## Step 3. investigating publisher metadata
 
 - Sort the *publisher* column alphabetically. What issues do you foresee in analysing the relation between *publisher* and *bookgenre*?
 
 The tail is very long, with some very small publishers who published only a few titles, but also variant names of large publishers that should be grouped with other variants to get appropriate grouping of book titles, genres and reviews.
 
+## Step 4. creating a data axis for publishers
+
+### 4.1 normalizing publisher names 
+
 - Look at the *publisher* metadata for the Hebban collection
     - sort publishers alphabetically. Does it need the same amount of normalizing?
-    
+
 It seems Hebban already normalizes publisher names (see their policy on modifying book information in the [Hebban FAQ](https://www.hebban.nl/faq)). Compare some of the normalized publisher names in Hebban reviews with variants of those names in the other collections. Can you reverse engineer how they normalized names?
+
+- How would you normalize names so that variations are conflated to a single canonical name?
+- What normalizing steps would be relatively safe?
+- How could you make this normalization process transparent to users of the dataset?
+
+
+### 4.2 clustering low-frequency publishers
+
+The long tail of low-frequency publishers causes a problem for analysis. Individually, they carry little information to use in qualifying the relation between publishers, genres and reviewers, but together they form a sizeable chunk of the reviews and reviewed books, so ignoring them all limits the generality of the analysis.
+
+Think of ways in which you can cluster or group low-frequency publishers, using f.i. the NUR codes of the books they publish, or the ISBN publisher prefixes (see [Structure of IBSN](https://en.wikipedia.org/wiki/International_Standard_Book_Number#Overview) (English) and [Structuur van het ISBN](https://nl.wikipedia.org/wiki/Internationaal_Standaard_Boeknummer#Structuur_van_het_ISBN) (Dutch)). As a (rather ad hoc) definition of low-frequency publisher, use a threshold of 10 or fewer ISBNs in the dataset.
+
 
 
