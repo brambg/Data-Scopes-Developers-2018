@@ -11,13 +11,12 @@ At Huygens ING, researcher Peter Boot is collecting online book responses, inclu
 
 This research project serves as the background for data and assignments in this workshop. 
 
-## Data Scopes assignments
+### Data Scopes Hands-on Sessions
 
-Morning assignment: creating data axis for publishers
+- Hands-on Session 1: Creating a Data Axis for Publishers
+- Hands-on Session 2: Combining Heterogeneous Datasets
 
-Afternoon assignment: combining heterogeneous dataset
-
-## Preparing review dataset for analysis of publishers and genres
+### Preparing review dataset for analysis of publishers and genres
 
 Publishers often focus on a small range of genres, although some publish books on any genres. They sometimes also play with genre labels for sales purposes, such as classifying a Thriller as a Literary Thriller to target an audience that would consider "normal" thrillers of no interest.
 
@@ -27,7 +26,9 @@ The assignment is to help with this transformation.
 
 **Note: it is not a test to see if you make the right decisions nor a suggestion that HuC DI developers are responsible for making these kinds decisions for researchers. It is about understanding what is important in this process, how it potentially affects research (and therefore how we can communicate this to researchers), and how we as a department should take into account these issues when developing data models, functionality for searching and analysing, and user interfaces.**
 
-## Step 1. getting an overview
+# Hands-on Session 1: Creating a Data Axis for Publishers
+
+## Step 1. Getting an overview of the dataset
 
 - How many reviews are in the dataset?
 - Which fields are there and for what fraction of the dataset are these fields filled in?
@@ -35,16 +36,23 @@ The assignment is to help with this transformation.
 - How complete is the *publisher* and *bookgenre* metadata?
 
 
-## Step 2. understanding distributions
+## Step 2. Analyzing review distributions
 
 - what is the frequency distribution of ISBNs? of authors? of publishers? of bookgenres? 
 - 
 
 The dataset contains book reviews from different source sites, including bol.com and hebban.nl. The source of a review is identified in the *collectionname* field. 
 
-- What is the distribution of reviews of collections?
+The collectionname refers to the source website of reviews:
+- [LTL (Lezers Tippen Lezers)](http://www.lezerstippenlezers.be/)
+- [Bol](https://www.bol.com/nl/boeken/index.html)
+- [Dizzie](http://dizzie.nl/) (offline since April 2016)
+- [WLJN (Wat Lees Jij Nu)](http://watleesjij.nu/) (no longer a book review forum)
+- [Hebban](https://www.hebban.nl/)
 
-## Step 3. investigating publisher metadata
+- What is the distribution of reviews over the five collections?
+
+## Step 3. Investigating publisher metadata
 
 - Sort the *publisher* column alphabetically. What issues do you foresee in analysing the relation between *publisher* and *bookgenre*?
 
