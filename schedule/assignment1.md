@@ -50,7 +50,7 @@ The collectionname refers to the source website of reviews:
 - [WLJN (Wat Lees Jij Nu)](http://watleesjij.nu/) (no longer a book review forum)
 - [Hebban](https://www.hebban.nl/)
 
-- What is the distribution of reviews over the five collections?
+What is the distribution of reviews over the five collections? Is this a balanced dataset or is it skewed towards a particular collection?
 
 ## Step 3. Investigating publisher metadata
 
