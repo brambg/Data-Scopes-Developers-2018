@@ -32,18 +32,21 @@ Go to the workshop SurfDrive folder (you should have received the URL for that i
 
 ### Step 1. Getting an overview of the dataset
 
+Unzip the CSV file and open it with your preferred software package or module (Pandas, Excel, Open Refine, UNIX command line, ...). [Here is a step-by-step version using Open Refine](assignment1-openrefine.md). The first step is to get an idea of what the data looks like. Try and find answers to the following questions:
+
 - How many reviews are in the dataset?
-- Which fields are there and for what fraction of the dataset are these fields filled in?
+- Which fields are there?
 - How complete is the *isbn* metadata? Sort the reviews on book title. Is ISBN useful for grouping reviews for the same book?
 - How complete is the *publisher* and *bookgenre* metadata?
 
 
 ### Step 2. Analyzing review distributions
 
-- what is the frequency distribution of ISBNs? of authors? of publishers? of bookgenres? 
-- 
+The next step is to get a feel for how the data is distributed. E.g. how many different books are reviewed, by how many different authors? And how do the number of reviews per book or author vary?
 
-The dataset contains book reviews from different source sites, including bol.com and hebban.nl. The source of a review is identified in the *collectionname* field. 
+- What is the frequency distribution of ISBNs? of authors? of publishers? of bookgenres?
+
+The dataset contains book reviews from different source sites, including bol.com and hebban.nl. The source of a review is identified in the *collectionname* field.
 
 The collectionname refers to the source website of reviews:
 - [LTL (Lezers Tippen Lezers)](http://www.lezerstippenlezers.be/)
@@ -54,29 +57,32 @@ The collectionname refers to the source website of reviews:
 
 What is the distribution of reviews over the five collections? Is this a balanced dataset or is it skewed towards a particular collection?
 
-### Step 3. Investigating publisher metadata
+### Step 3. creating a data axis for publishers
 
-- Sort the *publisher* column alphabetically. What issues do you foresee in analysing the relation between *publisher* and *bookgenre*?
+To analyse the relation between publishers and book genres, the *publisher* column needs to be turned into a usable data axis. But there are two hurdles to overcome first.
 
-The tail is very long, with some very small publishers who published only a few titles, but also variant names of large publishers that should be grouped with other variants to get appropriate grouping of book titles, genres and reviews.
+#### 3.1 normalizing publisher names 
 
-### Step 4. creating a data axis for publishers
+Sort the *publisher* column alphabetically. What issues do you foresee in analysing the relation between *publisher* and *bookgenre*?
 
-#### 4.1 normalizing publisher names 
+The tail is very long, with some very small publishers who published only a few titles, but also variant names of large publishers that should be grouped with other variants to get appropriate grouping of book genres and reviews by publisher.
 
-- Look at the *publisher* metadata for the Hebban collection
-    - sort publishers alphabetically. Does it need the same amount of normalizing?
+- Select the reviews for the Bol collection and sort publishers alphabetically. 
+- Do the same for the reviews of the Hebban collection. 
+
+Does they need the same amount of normalizing?
 
 It seems Hebban already normalizes publisher names (see their policy on modifying book information in the [Hebban FAQ](https://www.hebban.nl/faq)). Compare some of the normalized publisher names in Hebban reviews with variants of those names in the other collections. Can you reverse engineer how they normalized names?
 
-- How would you normalize names so that variations are conflated to a single canonical name?
-- What normalizing steps would be relatively safe?
+Finally, try and normalize publishers names:
+- First, come up with a plan to normalize names so that variations are conflated to a single canonical name. What normalizing steps would be relatively safe?
 - How could you make this normalization process transparent to users of the dataset?
+- You can use any tool you like. Open Refine has handy clustering functionality for just these kinds of tasks. (See the [OpenRefine clustering documentation](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth)
 
 
-#### 4.2 clustering low-frequency publishers
+#### 3.2 clustering low-frequency publishers
 
-The long tail of low-frequency publishers causes a problem for analysis. Individually, they carry little information to use in qualifying the relation between publishers, genres and reviewers, but together they form a sizeable chunk of the reviews and reviewed books, so ignoring them all limits the generality of the analysis.
+The long tail of low-frequency publishers causes another problem for analysis. Individually, they carry little information to use in qualifying the relation between publishers, genres and reviewers. But they represent the vast majority of publishers, so visualizing all publishers would drown out the main publishers. But leaving out the small publishers limits the generality of the analysis, because together they form a sizeable chunk of the reviews and reviewed books.
 
 Think of ways in which you can cluster or group low-frequency publishers, using f.i. the NUR codes of the books they publish, or the ISBN publisher prefixes (see [Structure of IBSN](https://en.wikipedia.org/wiki/International_Standard_Book_Number#Overview) (English) and [Structuur van het ISBN](https://nl.wikipedia.org/wiki/Internationaal_Standaard_Boeknummer#Structuur_van_het_ISBN) (Dutch)). As a (rather ad hoc) definition of low-frequency publisher, use a threshold of 10 or fewer ISBNs in the dataset.
 
