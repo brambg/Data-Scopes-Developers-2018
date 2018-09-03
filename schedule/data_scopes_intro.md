@@ -13,11 +13,15 @@
 
 - Analyse networks of internal references in national constitutions
 - Investigate relations between network structure and legal, social and political variables
+    - visualized networks look great and show very suggestive patterns,
+    - but how do you know what you're looking at?
 - Questions:
     - Which constitutions? Only current or only first or all versions? What counts as a version?
     - When are two constitutions representing the same country?
-    - What elements are we identifying in each constitution? References, logical structure of constitutions (
+    - What do you do with countries changing names? What do you do with countries channging borders?
+    - What elements are we identifying in each constitution? References, logical structure of constitutions (individual articles, sections, chapters, ...)
     - Only internal references or also external? What counts as a reference? 
+    - Do we treat references to individual articles the same as references to entire chapters? What about references to ranges of articles?
 
 ## Focus on data interactions
 - It's not about specific tools

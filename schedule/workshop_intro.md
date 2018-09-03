@@ -11,7 +11,7 @@ Coherent methods for research with heterogeneous digital resources
 
 The purpose of the workshop is to make researchers aware of the different aspects of dealing with large-scale data. With data scopes we wan t to achieve the following:
 
-- __insight into data processing__: processing data is an essential and inseparable part of research and not just an inevitable technical process after which the real research can beginnen
+- __insight into data processing__: processing data is an essential and inseparable part of research and not just an inevitable technical process after which the real research can begin
 - __transparancy of research__: make research based on the processing and analysis of large and complex data more Transparent
 - __methodological discussion__: consolidate digital methods in order to come to coherent and broadly supported research methodologies
 - __develop modes of collaboration__: collecting, cleaning and linking data requires a lot of knowledge, of technical as well as content matters
@@ -34,68 +34,12 @@ Wednesday 5 September:
 
 Thursday 6 September:
 
-+ 09:00-10:00 Preparing data scope of assignments for handover
-+ 10:00-10:30 Data scope handover to other group
-+ 10:30-11:30 Assessing data scope of other group
-+ 11:30-12:30 Methodology discussion and wrap up
++ 10:00-11:00 Preparing data scope of assignments for handover
++ 11:00-12:00 Data scope handover and assessment
++ 12:00-13:00 Methodology discussion and wrap up
 
 ## Participants
 
 - What is your background? What are your experiences with and in using data in research?
 - Why do you participate? What are your expectations?
 
-===========
-
-what do we keep from this
-
-
-## Deel 1
-- vaardigheden:
-    - grip krijgen op grote tekstbestanden met grotendeels onbekende inhoud en grote variatie
-    - mogelijkheden om patronen te ontdekken
-    - gestructureerd omgaan met ongestructureerde data
-- Corpus: Tijdschrift voor Geschiedenis
-
-
-## Tijdschrift voor Geschiedenis (TvG)
-
-- [Retrodigitalisering TvG](http://resources.huygens.knaw.nl/retroboeken/tvg/) online beschikbaar
-- edities: 121 (1886-2008)
-    - teksten: 22,682 (artikelen, mededelingen, boekbesprekingen, ...)
-    - pagina's: 60,751
-    - Woorden - totaal = 30,861,146
-    - Woorden - uniek = 932,766
-- OCR data:
-    - incompleet, ongestructureerde tekst, beperkte ontsluiting
-
-## UNIX Command Line
-
-- Exotische commando's en syntax:
-    - grep, awk, sed, cat, tr, sort, uniq, cut, paste
-- Waarom?
-    - laat goed zien waar moeilijkheden met data interactie zitten
-    - biedt natuurlijke methode voor transparant onderzoek
-    - generieke toolset voor data exploratie en extractie
-    - pipelines voor ketens van stappen
-
-
-## Reguliere expressies
-    - CTRL-F on steroids
-    - voor patronen herkennen en transformeren
-
---
-
-## Hoe hou ik bij wat ik gedaan heb?
-
-- gebruik `history` commando
-- kopieer commando's naar een bestand
-- script: UNIX kan bestand met lijst van commando's uitvoeren (herhaalbaarheid)
-
-- We claimen niet dat alle onderzoek voortaan via de command line moet!
-    - maar het illustreert goed waar data scopes over gaat: transparent maken van het process
-
---
-
-## Transparantie
-
-Op welk detail niveau moet het process vastgelegd zijn voor transparantie?
