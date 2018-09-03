@@ -26,9 +26,9 @@ The assignment is to help with this transformation.
 
 **Note: it is not a test to see if you make the right decisions nor a suggestion that HuC DI developers are responsible for making these kinds decisions for researchers. It is about understanding what is important in this process, how it potentially affects research (and therefore how we can communicate this to researchers), and how we as a department should take into account these issues when developing data models, functionality for searching and analysing, and user interfaces.**
 
-# Hands-on Session 1: Creating a Data Axis for Publishers
+## Hands-on Session 1: Creating a Data Axis for Publishers
 
-## Step 1. Getting an overview of the dataset
+### Step 1. Getting an overview of the dataset
 
 - How many reviews are in the dataset?
 - Which fields are there and for what fraction of the dataset are these fields filled in?
@@ -36,7 +36,7 @@ The assignment is to help with this transformation.
 - How complete is the *publisher* and *bookgenre* metadata?
 
 
-## Step 2. Analyzing review distributions
+### Step 2. Analyzing review distributions
 
 - what is the frequency distribution of ISBNs? of authors? of publishers? of bookgenres? 
 - 
@@ -52,15 +52,15 @@ The collectionname refers to the source website of reviews:
 
 What is the distribution of reviews over the five collections? Is this a balanced dataset or is it skewed towards a particular collection?
 
-## Step 3. Investigating publisher metadata
+### Step 3. Investigating publisher metadata
 
 - Sort the *publisher* column alphabetically. What issues do you foresee in analysing the relation between *publisher* and *bookgenre*?
 
 The tail is very long, with some very small publishers who published only a few titles, but also variant names of large publishers that should be grouped with other variants to get appropriate grouping of book titles, genres and reviews.
 
-## Step 4. creating a data axis for publishers
+### Step 4. creating a data axis for publishers
 
-### 4.1 normalizing publisher names 
+#### 4.1 normalizing publisher names 
 
 - Look at the *publisher* metadata for the Hebban collection
     - sort publishers alphabetically. Does it need the same amount of normalizing?
@@ -72,7 +72,7 @@ It seems Hebban already normalizes publisher names (see their policy on modifyin
 - How could you make this normalization process transparent to users of the dataset?
 
 
-### 4.2 clustering low-frequency publishers
+#### 4.2 clustering low-frequency publishers
 
 The long tail of low-frequency publishers causes a problem for analysis. Individually, they carry little information to use in qualifying the relation between publishers, genres and reviewers, but together they form a sizeable chunk of the reviews and reviewed books, so ignoring them all limits the generality of the analysis.
 
