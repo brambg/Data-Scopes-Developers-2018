@@ -26,7 +26,7 @@ The assignment is to help with this transformation.
 
 **Note: it is not a test to see if you make the right decisions nor a suggestion that HuC DI developers are responsible for making these kinds decisions for researchers. It is about understanding what is important in this process, how it potentially affects research (and therefore how we can communicate this to researchers), and how we as a department should take into account these issues when developing data models, functionality for searching and analysing, and user interfaces.**
 
-## Hands-on Session 1: Creating a Data Axis for Publishers
+## Hands-on Session 1: Creating Data Axes for Online Book Review Data
 
 Go to the workshop SurfDrive folder (you should have received the URL for that in an email) and download the dataset *reviews.sample-0.05.csv.gz*. This contains some 18k reviews.
 

@@ -4,7 +4,7 @@ Wednesday 5 September:
 
 + 10:00-10:30 [Workshop introduction](workshop_intro.md)
 + 10:30-11:00 [Data Scopes concept](data_scopes_intro.md)
-+ 11:00-13:00 [Hands-on session 1: Creating a Data Axis for Publishers](assignment1.md)
++ 11:00-13:00 [Hands-on session 1: Creating Data Axes for Online Book Review Data](assignment1.md)
 + 13:00-14:00 Lunch
 + 14:00-17:00 [Hands-on session 2: Combining Heterogeneous Review Datasets](assignment2.md)
 
