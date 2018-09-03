@@ -28,6 +28,8 @@ The assignment is to help with this transformation.
 
 ## Hands-on Session 1: Creating a Data Axis for Publishers
 
+Go to the workshop SurfDrive folder (you should have received the URL for that in an email) and download the dataset *reviews.sample-0.05.csv.gz*. This contains some 18k reviews.
+
 ### Step 1. Getting an overview of the dataset
 
 - How many reviews are in the dataset?
