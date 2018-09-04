@@ -1,6 +1,6 @@
 # Research background: Online Book Reviews
 
-The reception of literature is an research direction within the Humanities Cluster. One aspect to study is how readers discuss the books they read online, as part of communities of readers or just for themselves as way to reflect on what they thought of the book or to keep track of their own reading. Studying book reviews by different readers allows us to analyse how fiction and non-fiction books are received by the reading public, how appreciation varies across book genres, reader demographics, reading communities and over time. 
+The reception of literature is a research direction within the Humanities Cluster. One aspect to study is how readers discuss the books they read online, as part of communities of readers or just for themselves as way to reflect on what they thought of the book or to keep track of their own reading. Studying book reviews by different readers allows us to analyse how fiction and non-fiction books are received by the reading public, how appreciation varies across book genres, reader demographics, reading communities and over time. 
 
 At Huygens ING, researcher Peter Boot is collecting online book responses, including reviews and discussions, of Dutch and translated fiction to study how the reading of books affects readers. This requires linguistic analysis of how readers express the aesthetic and emotional impact of a book, what it reminded them of, what they've learned or how it changed their opinions, views or attitudes. This is a challenging research project that requires both a large collection of book responses, complex linguistic analysis of review text, careful gathering and curation of book and review metadata: 
 
@@ -70,7 +70,7 @@ The tail is very long, with some very small publishers who published only a few 
 - Select the reviews for the Bol collection and sort publishers alphabetically. 
 - Do the same for the reviews of the Hebban collection. 
 
-Does they need the same amount of normalizing?
+Do they need the same amount of normalizing?
 
 It seems Hebban already normalizes publisher names (see their policy on modifying book information in the [Hebban FAQ](https://www.hebban.nl/faq)). Compare some of the normalized publisher names in Hebban reviews with variants of those names in the other collections. Can you reverse engineer how they normalized names?
 
